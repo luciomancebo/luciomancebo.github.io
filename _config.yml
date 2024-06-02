@@ -1,0 +1,9 @@
+title: Lucio Mancebo's Documentation
+description: Consolidated documentation from KISSingTimeline repositories.
+baseurl: ""
+url: "https://luciomancebo.github.io"
+theme: minima
+
+markdown: kramdown
+kramdown:
+  input: GFM
