@@ -1,8 +1,8 @@
-title: Lucio Mancebo's Documentation
-description: Consolidated documentation from KISSingTimeline repositories.
+title: Lucio Mancebo  |  .NET Developer
+description: https://www.linkedin.com/in/lucio-mancebo/
 baseurl: ""
 url: "https://luciomancebo.github.io"
-theme: minima
+theme: jekyll-theme-cayman
 
 markdown: kramdown
 kramdown:
