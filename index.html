@@ -3,15 +3,21 @@ layout: default
 ---
 
 <style>
+  .home .page-heading {
+    font-size: 1.5rem; /* Adjust the size of the heading */
+  }
+  .home .lede p {
+    font-size: 1rem; /* Adjust the size of the description */
+  }
   .iframe-container {
     width: 100%;
-    height: 100vh; /* Full viewport height */
+    height: calc(100vh - 200px); /* Full viewport height minus header height */
     border: none;
   }
 </style>
 
 <div class="home">
-  <p>This site consolidates documentation from my private repositories.</p>
+  <p class="lede">This site consolidates documentation from my private repositories.</p>
 
   <section class="doc-section">
     <iframe class="iframe-container" src="https://luciomancebo.github.io/kissing-timeline-api/README.html"></iframe>
