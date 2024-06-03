@@ -2,7 +2,7 @@ title: Lucio Mancebo  |  .NET Developer
 description: https://www.linkedin.com/in/lucio-mancebo/
 baseurl: ""
 url: "https://luciomancebo.github.io"
-theme: jekyll-theme-cayman
+theme: jekyll-theme-modernist
 
 markdown: kramdown
 kramdown:
