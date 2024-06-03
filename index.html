@@ -17,10 +17,28 @@
         }
         header {
             width: 100%;
-            background: linear-gradient(to right, #003049, #d62828);
+            background: linear-gradient(135deg, #007acc, #00d4ff);
             color: white;
-            padding: 20px 0;
+            padding: 10px 0;
             text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            padding: 10px;
+            font-size: 2.5rem;
+        }
+        header p {
+            margin: 0;
+            padding: 0 10px 10px;
+        }
+        .linkedin-button {
+            background-color: #0077b5;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 10px;
         }
         .container {
             width: 100%;
@@ -41,16 +59,12 @@
             position: absolute;
             bottom: 0;
         }
-        a {
-            color: white;
-            text-decoration: none;
-        }
     </style>
 </head>
 <body>
     <header>
         <h1>Lucio Mancebo | .NET Developer</h1>
-        <p><a href="https://www.linkedin.com/in/lucio-mancebo/">LinkedIn</a></p>
+        <p><a href="https://www.linkedin.com/in/lucio-mancebo/" class="linkedin-button">LinkedIn</a></p>
     </header>
     <div class="container">
         <p>This site consolidates documentation from my private repositories.</p>
