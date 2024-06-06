@@ -16,6 +16,7 @@
             align-items: center;
             background-color: #f4f4f4;
         }
+
         header {
             width: 100%;
             background: linear-gradient(120deg, #155799, #159957);
@@ -23,62 +24,68 @@
             padding: 10px 0;
             text-align: center;
         }
+
         header h1 {
             margin: 0;
-            padding: 10px;
             font-size: 2.5rem;
             text-shadow: 1px 1px 13px #4e5549;
         }
-        header h2 {
+
+        header p {
             margin: 0;
-            padding: 10px;
             font-weight: normal;
-            opacity: 0.7;
+            opacity: 0.8;
         }
+
         header p {
             margin: 0;
             padding: 0 10px 10px;
         }
-        .linkedin-button {
-            background-color: rgba(255,255,255,0.08);
-            color: white;
-            padding: 10px 20px;
-            text-decoration: none;
-            border-color: rgba(255,255,255,0.2);
-            display: inline-block;
-            margin-top: 10px;
-            opacity: 0.6;
-            border-style: solid;
-            border-width: 1px;
-            border-radius: 0.3rem;
-            transition: color 0.2s, background-color 0.2s, border-color 0.2s;
-        }
+
         .container {
             width: 100%;
             max-width: 1200px;
             padding: 20px;
         }
+
         .iframe-container {
             width: 100%;
             height: calc(100vh - 200px);
             border: none;
         }
+
         footer {
             width: 100%;
             text-align: center;
-            padding: 10px 0;
             background-color: #333;
             color: white;
             position: sticky;
             bottom: 0;
+            opacity: 0.9;
+        }
+
+        .footer-content {
+            display: inline-flex;
+            align-items: center;
+        }
+
+        .social-icons {
+            display: flex;
+            margin: 0 35px;
+        }
+
+        .social-icons img {
+            width: 35px;
+            height: 35px;
+            margin: 10px;
+            border-radius: 5px;
         }
     </style>
 </head>
 <body>
     <header>
         <h1>Lucio Mancebo</h1>
-        <h2>.NET Developer</h2>
-        <p><a href="https://www.linkedin.com/in/lucio-mancebo/" class="linkedin-button" target="_blank">LinkedIn profile</a></p>
+        <p>Backend .NET Developer</p>
     </header>
     <div class="container">
         <p>This site consolidates documentation from my private repositories.</p>
@@ -87,7 +94,17 @@
         </section>
     </div>
     <footer>
-        Lucio Mancebo's Documentation | Consolidated documentation from KISSingTimeline repositories.
+        <div class="footer-content">
+            <p>Lucio Mancebo | Backend .NET Developer</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/lucio-mancebo/" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn">
+                </a>
+                <a href="https://github.com/luciomancebo" target="_blank">
+                    <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub">
+                </a>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
